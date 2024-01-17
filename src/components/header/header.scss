@@ -1,0 +1,26 @@
+header {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 15px 0px rgba(37, 37, 37, 0.05);
+}
+.searchwrapper {
+  display: flex;
+  width: 240px;
+
+  height: 30px;
+  padding-left: 5px;
+  outline: none;
+  //   padding: 7px 159.5px 7px 0px;
+  align-items: center;
+  padding: 1px;
+
+  border-radius: 4px;
+  background: #e5e5e5;
+  .search {
+    background: #e5e5e5;
+    outline: none;
+    width: 88%;
+  }
+}
